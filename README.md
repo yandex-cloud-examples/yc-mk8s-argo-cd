@@ -1,5 +1,3 @@
-# Название сценария
+# Непрерывная доставка приложений в кластер Yandex Managed Service for Kubernetes® с помощью Argo CD
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете интегрировать [Argo CD](https://argo-cd.readthedocs.io/en/stable) с [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes) и [Managed Service for GitLab](https://yandex.cloud/ru/docs/managed-gitlab), а затем с помощью Argo CD развертывать приложения. Подготовка инфраструктуры для Managed Service for Kubernetes® и Container Registry через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/marketplace/argo-cd), необходимый для настройки конфигурационный файл [k8s-argocd.tf](k8s-argocd.tf) расположен в этом репозитории.
