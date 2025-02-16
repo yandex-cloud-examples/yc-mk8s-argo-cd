@@ -1,0 +1,3 @@
+# Continuous delivery of applications to a Yandex Managed Service for Kubernetes® cluster using Argo CD
+
+You can integrate [Argo CD](https://argo-cd.readthedocs.io/en/stable) with [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes) and [Managed Service for GitLab](https://yandex.cloud/docs/managed-gitlab), and then use Argo CD to deploy applications. See [this tutorial](https://yandex.cloud/docs/managed-kubernetes/tutorials/marketplace/argo-cd) to learn how to prepare the infrastructure for Managed Service for Kubernetes® and Container Registry using Terraform. This repository contains the configuration file you will need: [k8s-argocd.tf](k8s-argocd.tf).
